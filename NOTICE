@@ -1,0 +1,23 @@
+TaiDN-Q
+Copyright (c) 2026 Tai D. Nguyen
+
+Author:
+Tai D. Nguyen
+
+ORCID:
+0009-0005-3814-7192
+
+TaiDN-Q is an independent research architecture for
+adaptive, noise-aware quantum experiment runtime,
+characterization, optimization, and execution.
+
+The public repository contains only the research and
+reproducibility components designated for public release.
+
+Certain algorithms, implementation details, optimization
+strategies, research extensions, and commercial components
+may be maintained separately as proprietary intellectual
+property by the author.
+
+Unauthorized representation of proprietary components as
+publicly licensed technology is not permitted.

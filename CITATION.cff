@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "TaiDN-Q: Adaptive Noise-Aware Quantum Experiment Runtime"
+message: "If you use TaiDN-Q in research, please cite this work."
+type: software
+authors:
+  - family-names: "Nguyen"
+    given-names: "Tai D."
+    orcid: "https://orcid.org/0009-0005-3814-7192"
+repository-code: "https://github.com/DucTaiNguyen/TaiDN-Q"
+license: "Apache-2.0"
+keywords:
+  - quantum computing
+  - quantum noise
+  - quantum runtime
+  - adaptive experimentation
+  - IBM Quantum
+  - Qiskit
+  - noise characterization
+  - quantum hardware
