@@ -1,24 +1,47 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.egg-info/
 .pytest_cache/
 .coverage
 .cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
 .env
 .env.*
+secrets/
+*.pem
+*.key
+*.token
 
+# Build artifacts
 build/
 dist/
 qiskit-aer/build/
 
+# Conan
 .conan/
 .conan2/
 
+# Logs
+*.log
+
+# Research outputs
+results/raw/
+results/private/
+
+# Qiskit Aer nested repository metadata
 qiskit-aer/.git/
 
+# Jupyter
 .ipynb_checkpoints/
+
+# OS / editors
 .DS_Store
 .vscode/
 .idea/
