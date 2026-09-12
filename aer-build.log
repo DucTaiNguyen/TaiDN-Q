@@ -1,0 +1,418 @@
+Using pip 26.2.1 from /root/TaiDN-Q/.venv/lib/python3.14/site-packages/pip (python 3.14)
+Collecting qiskit-aer
+  Downloading qiskit_aer-0.17.2.tar.gz (6.6 MB)
+     ━━━━━━━━━━ 6.6/6.6   1.4 MB/s  0:00:04
+                MB                         
+  Installing build dependencies: started
+  Running command installing build dependencies for qiskit-aer
+  Using pip 26.2.1 from /root/TaiDN-Q/.venv/lib/python3.14/site-packages/pip (python 3.14)
+  Collecting setuptools
+    Obtaining dependency information for setuptools from https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl.metadata
+    Using cached setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+  Collecting conan<2.0.0
+    Using cached conan-1.66.0-py3-none-any.whl
+  Collecting scikit-build>=0.11.0
+    Obtaining dependency information for scikit-build>=0.11.0 from https://files.pythonhosted.org/packages/47/ef/53c5d9293d1d11ed4e682fdd7f32c776b79ee30f83757395db0d4d0f0276/scikit_build-0.19.1-py3-none-any.whl.metadata
+    Using cached scikit_build-0.19.1-py3-none-any.whl.metadata (21 kB)
+  Collecting cmake!=3.17.0,!=3.17.1
+    Obtaining dependency information for cmake!=3.17.0,!=3.17.1 from https://files.pythonhosted.org/packages/fc/64/c227d8a26f17c82b0864faafb9f4a2db0eb425f613367eaad1e9d6260eef/cmake-4.4.3-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl.metadata
+    Using cached cmake-4.4.3-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl.metadata (7.0 kB)
+  Collecting ninja
+    Obtaining dependency information for ninja from https://files.pythonhosted.org/packages/35/54/7368ce188625e39acc03ee362bb86cc9bfa6ad15e25c50889ae36e2889b3/ninja-1.13.2-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl.metadata
+    Using cached ninja-1.13.2-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl.metadata (5.4 kB)
+  Collecting pybind11>2.6
+    Obtaining dependency information for pybind11>2.6 from https://files.pythonhosted.org/packages/33/fd/8762f7ee3e4e4be6d1d846cffb4916dd9bb02b2f800d3603718a0efe494c/pybind11-3.1.0-py3-none-any.whl.metadata
+    Using cached pybind11-3.1.0-py3-none-any.whl.metadata (10 kB)
+  Collecting requests<3.0.0,>=2.25 (from conan<2.0.0)
+    Obtaining dependency information for requests<3.0.0,>=2.25 from https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl.metadata
+    Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+  Collecting urllib3<1.27,>=1.26.6 (from conan<2.0.0)
+    Obtaining dependency information for urllib3<1.27,>=1.26.6 from https://files.pythonhosted.org/packages/33/cf/8435d5a7159e2a9c83a95896ed596f68cf798005fe107cc655b5c5c14704/urllib3-1.26.20-py2.py3-none-any.whl.metadata
+    Using cached urllib3-1.26.20-py2.py3-none-any.whl.metadata (50 kB)
+  Collecting colorama<0.5.0,>=0.3.3 (from conan<2.0.0)
+    Obtaining dependency information for colorama<0.5.0,>=0.3.3 from https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl.metadata
+    Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+  Collecting PyYAML<6.1,>=3.11 (from conan<2.0.0)
+    Obtaining dependency information for PyYAML<6.1,>=3.11 from https://files.pythonhosted.org/packages/92/b5/47e807c2623074914e29dabd16cbbdd4bf5e9b2db9f8090fa64411fc5382/pyyaml-6.0.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata
+    Using cached pyyaml-6.0.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (2.4 kB)
+  Collecting patch-ng<1.18,>=1.17.4 (from conan<2.0.0)
+    Using cached patch_ng-1.17.4-py3-none-any.whl
+  Collecting fasteners>=0.14.1 (from conan<2.0.0)
+    Obtaining dependency information for fasteners>=0.14.1 from https://files.pythonhosted.org/packages/51/ac/e5d886f892666d2d1e5cb8c1a41146e1d79ae8896477b1153a21711d3b44/fasteners-0.20-py3-none-any.whl.metadata
+    Using cached fasteners-0.20-py3-none-any.whl.metadata (4.8 kB)
+  Collecting six<=1.16.0,>=1.10.0 (from conan<2.0.0)
+    Obtaining dependency information for six<=1.16.0,>=1.10.0 from https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl.metadata
+    Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+  Collecting node-semver==0.6.1 (from conan<2.0.0)
+    Obtaining dependency information for node-semver==0.6.1 from https://files.pythonhosted.org/packages/08/51/6cf3a2b18ca35cbe4ad3c7538a7c3dc0cb24e71629fb16e729c137d06432/node_semver-0.6.1-py3-none-any.whl.metadata
+    Using cached node_semver-0.6.1-py3-none-any.whl.metadata (2.1 kB)
+  Collecting distro<=1.8.0,>=1.0.2 (from conan<2.0.0)
+    Obtaining dependency information for distro<=1.8.0,>=1.0.2 from https://files.pythonhosted.org/packages/f4/2c/c90a3adaf0ddb70afe193f5ebfb539612af57cffe677c3126be533df3098/distro-1.8.0-py3-none-any.whl.metadata
+    Using cached distro-1.8.0-py3-none-any.whl.metadata (6.9 kB)
+  Collecting pygments<3.0,>=2.0 (from conan<2.0.0)
+    Obtaining dependency information for pygments<3.0,>=2.0 from https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl.metadata
+    Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+  Collecting tqdm<5,>=4.28.1 (from conan<2.0.0)
+    Obtaining dependency information for tqdm<5,>=4.28.1 from https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl.metadata
+    Using cached tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+  Collecting Jinja2<4.0.0,>=3.0 (from conan<2.0.0)
+    Obtaining dependency information for Jinja2<4.0.0,>=3.0 from https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl.metadata
+    Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+  Collecting python-dateutil<3,>=2.7.0 (from conan<2.0.0)
+    Obtaining dependency information for python-dateutil<3,>=2.7.0 from https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata
+    Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+  Collecting bottle<0.13,>=0.12.8 (from conan<2.0.0)
+    Obtaining dependency information for bottle<0.13,>=0.12.8 from https://files.pythonhosted.org/packages/bb/1f/5977ea88c6a3df6199db97d320e5da816d415d1eb75a987a1f6823d5cc9d/bottle-0.12.25-py3-none-any.whl.metadata
+    Using cached bottle-0.12.25-py3-none-any.whl.metadata (1.8 kB)
+  Collecting pluginbase>=0.5 (from conan<2.0.0)
+    Using cached pluginbase-1.0.1-py3-none-any.whl
+  Collecting PyJWT<3.0.0,>=2.4.0 (from conan<2.0.0)
+    Obtaining dependency information for PyJWT<3.0.0,>=2.4.0 from https://files.pythonhosted.org/packages/9c/97/672cb32ce0dfea44b740cb7b4f97038463b9cf7c0ead1aacf595572851d6/pyjwt-2.14.0-py3-none-any.whl.metadata
+    Using cached pyjwt-2.14.0-py3-none-any.whl.metadata (3.4 kB)
+  Collecting MarkupSafe>=2.0 (from Jinja2<4.0.0,>=3.0->conan<2.0.0)
+    Obtaining dependency information for MarkupSafe>=2.0 from https://files.pythonhosted.org/packages/da/ef/e648bfd021127bef5fa12e1720ffed0c6cbb8310c8d9bea7266337ff06de/markupsafe-3.0.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata
+    Using cached markupsafe-3.0.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (2.7 kB)
+  Collecting charset_normalizer<4,>=2 (from requests<3.0.0,>=2.25->conan<2.0.0)
+    Obtaining dependency information for charset_normalizer<4,>=2 from https://files.pythonhosted.org/packages/f1/5a/0e58b1c04a1596e0256f407274a92d5fb2ee21324409d1fab1da48a65b5b/charset_normalizer-3.5.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata
+    Using cached charset_normalizer-3.5.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (45 kB)
+  Collecting idna<4,>=2.5 (from requests<3.0.0,>=2.25->conan<2.0.0)
+    Obtaining dependency information for idna<4,>=2.5 from https://files.pythonhosted.org/packages/57/b0/0e52c878c53f245edd3a11020f20979b3f490f245af532c7cae3027754b5/idna-3.19-py3-none-any.whl.metadata
+    Using cached idna-3.19-py3-none-any.whl.metadata (9.2 kB)
+  Collecting certifi>=2023.5.7 (from requests<3.0.0,>=2.25->conan<2.0.0)
+    Obtaining dependency information for certifi>=2023.5.7 from https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl.metadata
+    Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+  Collecting packaging (from scikit-build>=0.11.0)
+    Obtaining dependency information for packaging from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
+    Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+  Collecting wheel>=0.32.0 (from scikit-build>=0.11.0)
+    Obtaining dependency information for wheel>=0.32.0 from https://files.pythonhosted.org/packages/2e/29/69cfbb602cd91690c55d38ba9fe53e6a7e76a6fa647bf38f19c138d25449/wheel-0.48.0-py3-none-any.whl.metadata
+    Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+  Using cached node_semver-0.6.1-py3-none-any.whl (10 kB)
+  Using cached bottle-0.12.25-py3-none-any.whl (90 kB)
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+  Using cached distro-1.8.0-py3-none-any.whl (20 kB)
+  Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+  Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+  Using cached pyjwt-2.14.0-py3-none-any.whl (32 kB)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+  Using cached pyyaml-6.0.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (766 kB)
+  Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+  Using cached charset_normalizer-3.5.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (242 kB)
+  Using cached idna-3.19-py3-none-any.whl (68 kB)
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+  Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+  Using cached urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+  Using cached setuptools-84.0.0-py3-none-any.whl (818 kB)
+  Using cached scikit_build-0.19.1-py3-none-any.whl (86 kB)
+  Using cached cmake-4.4.3-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl (30.3 MB)
+  Using cached ninja-1.13.2-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl (177 kB)
+  Using cached pybind11-3.1.0-py3-none-any.whl (319 kB)
+  Using cached certifi-2026.7.22-py3-none-any.whl (136 kB)
+  Using cached fasteners-0.20-py3-none-any.whl (18 kB)
+  Using cached markupsafe-3.0.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (24 kB)
+  Using cached wheel-0.48.0-py3-none-any.whl (33 kB)
+  Using cached packaging-26.3-py3-none-any.whl (129 kB)
+  Installing collected packages: pluginbase, patch-ng, node-semver, bottle, urllib3, tqdm, six, setuptools, PyYAML, PyJWT, pygments, pybind11, packaging, ninja, MarkupSafe, idna, fasteners, distro, colorama, cmake, charset_normalizer, certifi, wheel, requests, python-dateutil, Jinja2, scikit-build, conan
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/tqdm to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/pygmentize to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/pybind11-config to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/idna to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/distro to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/ccmake to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/cmake to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/cpack to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/ctest to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/normalizer to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/wheel to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/conan to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/conan_build_info to 755
+    changing mode of /tmp/pip-build-env-k5ru8c9u/overlay/bin/conan_server to 755
+
+  Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.3 PyJWT-2.14.0 PyYAML-6.0.3 bottle-0.12.25 certifi-2026.7.22 charset_normalizer-3.5.1 cmake-4.4.3 colorama-0.4.6 conan-1.66.0 distro-1.8.0 fasteners-0.20 idna-3.19 ninja-1.13.2 node-semver-0.6.1 packaging-26.3 patch-ng-1.17.4 pluginbase-1.0.1 pybind11-3.1.0 pygments-2.21.0 python-dateutil-2.9.0.post0 requests-2.34.2 scikit-build-0.19.1 setuptools-84.0.0 six-1.16.0 tqdm-4.70.1 urllib3-1.26.20 wheel-0.48.0
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: Apache Software License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running egg_info
+  writing qiskit_aer.egg-info/PKG-INFO
+  writing dependency_links to qiskit_aer.egg-info/dependency_links.txt
+  writing requirements to qiskit_aer.egg-info/requires.txt
+  writing top-level names to qiskit_aer.egg-info/top_level.txt
+  reading manifest file 'qiskit_aer.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*cpp' under directory 'qiskit_aer'
+  warning: no previously-included files found matching 'src/third-party/*/lib/*.a'
+  warning: no previously-included files found matching 'src/third-party/*/lib/*.lib'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'qiskit_aer.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: Apache Software License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running dist_info
+  creating /tmp/pip-modern-metadata-ja_qztvf/qiskit_aer.egg-info
+  writing /tmp/pip-modern-metadata-ja_qztvf/qiskit_aer.egg-info/PKG-INFO
+  writing dependency_links to /tmp/pip-modern-metadata-ja_qztvf/qiskit_aer.egg-info/dependency_links.txt
+  writing requirements to /tmp/pip-modern-metadata-ja_qztvf/qiskit_aer.egg-info/requires.txt
+  writing top-level names to /tmp/pip-modern-metadata-ja_qztvf/qiskit_aer.egg-info/top_level.txt
+  writing manifest file '/tmp/pip-modern-metadata-ja_qztvf/qiskit_aer.egg-info/SOURCES.txt'
+  reading manifest file '/tmp/pip-modern-metadata-ja_qztvf/qiskit_aer.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*cpp' under directory 'qiskit_aer'
+  warning: no previously-included files found matching 'src/third-party/*/lib/*.a'
+  warning: no previously-included files found matching 'src/third-party/*/lib/*.lib'
+  adding license file 'LICENSE.txt'
+  writing manifest file '/tmp/pip-modern-metadata-ja_qztvf/qiskit_aer.egg-info/SOURCES.txt'
+  creating '/tmp/pip-modern-metadata-ja_qztvf/qiskit_aer-0.17.2.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: qiskit>=1.1.0 in ./.venv/lib/python3.14/site-packages (from qiskit-aer) (2.5.2)
+Requirement already satisfied: numpy>=1.16.3 in ./.venv/lib/python3.14/site-packages (from qiskit-aer) (2.5.3)
+Requirement already satisfied: scipy>=1.0 in ./.venv/lib/python3.14/site-packages (from qiskit-aer) (1.18.1)
+Collecting psutil>=5 (from qiskit-aer)
+  Obtaining dependency information for psutil>=5 from https://files.pythonhosted.org/packages/63/65/37648c0c158dc222aba51c089eb3bdfa238e621674dc42d48706e639204f/psutil-7.2.2-cp36-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata
+  Downloading psutil-7.2.2-cp36-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (22 kB)
+Collecting python-dateutil>=2.8.0 (from qiskit-aer)
+  Obtaining dependency information for python-dateutil>=2.8.0 from https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.0->qiskit-aer)
+  Obtaining dependency information for six>=1.5 from https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl.metadata
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Requirement already satisfied: rustworkx>=0.15.0 in ./.venv/lib/python3.14/site-packages (from qiskit>=1.1.0->qiskit-aer) (0.18.1)
+Requirement already satisfied: dill>=0.3 in ./.venv/lib/python3.14/site-packages (from qiskit>=1.1.0->qiskit-aer) (0.4.1)
+Requirement already satisfied: stevedore>=3.0.0 in ./.venv/lib/python3.14/site-packages (from qiskit>=1.1.0->qiskit-aer) (5.9.1)
+Requirement already satisfied: typing-extensions in ./.venv/lib/python3.14/site-packages (from qiskit>=1.1.0->qiskit-aer) (4.16.0)
+Downloading psutil-7.2.2-cp36-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (156 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: qiskit-aer
+  Building wheel for qiskit-aer (pyproject.toml): started
+  Running command Building wheel for qiskit-aer (pyproject.toml)
+  /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: Apache Software License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+
+
+  --------------------------------------------------------------------------------
+  -- Trying 'Ninja' generator
+  --------------------------------
+  ---------------------------
+  ----------------------
+  -----------------
+  ------------
+  -------
+  --
+  The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+  -- The C compiler identification is GNU 14.3.0
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: /usr/bin/gcc-14 - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- The CXX compiler identification is GNU 14.3.0
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: /usr/bin/g++-14 - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done (5.2s)
+  -- Generating done (0.3s)
+  -- Build files have been written to: /tmp/pip-install-4c356iro/qiskit-aer_374f41001b16406189f29320c6c59cf9/_cmake_test_compile/build
+  --
+  -------
+  ------------
+  -----------------
+  ----------------------
+  ---------------------------
+  --------------------------------
+  -- Trying 'Ninja' generator - success
+  --------------------------------------------------------------------------------
+
+  Configuring Project
+    Working directory:
+      /tmp/pip-install-4c356iro/qiskit-aer_374f41001b16406189f29320c6c59cf9/_skbuild/linux-aarch64-3.14/cmake-build
+    Command:
+      /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/cmake/data/bin/cmake /tmp/pip-install-4c356iro/qiskit-aer_374f41001b16406189f29320c6c59cf9 -G Ninja -DCMAKE_MAKE_PROGRAM:FILEPATH=ninja --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX:PATH=/tmp/pip-install-4c356iro/qiskit-aer_374f41001b16406189f29320c6c59cf9/_skbuild/linux-aarch64-3.14/cmake-install -DPYTHON_VERSION_STRING:STRING=3.14.4 -DSKBUILD:INTERNAL=TRUE -DCMAKE_MODULE_PATH:PATH=/tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/skbuild/resources/cmake -DPYTHON_EXECUTABLE:PATH=/root/TaiDN-Q/.venv/bin/python -DPYTHON_INCLUDE_DIR:PATH=/usr/include/python3.14 -DPYTHON_LIBRARY:PATH=/usr/lib/aarch64-linux-gnu/libpython3.14.so -DPython_EXECUTABLE:PATH=/root/TaiDN-Q/.venv/bin/python -DPython_ROOT_DIR:PATH=/root/TaiDN-Q/.venv -DPython_FIND_REGISTRY:STRING=NEVER -DPython_INCLUDE_DIR:PATH=/usr/include/python3.14 -DPython3_EXECUTABLE:PATH=/root/TaiDN-Q/.venv/bin/python -DPython3_ROOT_DIR:PATH=/root/TaiDN-Q/.venv -DPython3_FIND_REGISTRY:STRING=NEVER -DPython3_INCLUDE_DIR:PATH=/usr/include/python3.14 -DCMAKE_MAKE_PROGRAM:FILEPATH=ninja -DCMAKE_BUILD_TYPE:STRING=Release
+
+  The --no-warn-unused-cli option is deprecated.  Use -Wno-unused-cli instead.
+  CMake Warning (deprecated) at CMakeLists.txt:11 (cmake_minimum_required):
+    Compatibility with CMake < 3.10 will be removed from a future version of
+    CMake.
+
+    Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    to tell CMake that the project requires at least <min> but has been updated
+    to work with policies introduced by <max> or earlier.
+  This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+  to suppress it.
+
+  -- The CXX compiler identification is GNU 14.3.0
+  -- The C compiler identification is GNU 14.3.0
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: /usr/bin/g++-14 - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: /usr/bin/gcc-14 - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Performing Test flag_supported
+  -- Performing Test flag_supported - Success
+  -- Conan: Automatic detection of conan settings from cmake
+  -- Conan: Settings= -s;build_type=Release;-s;compiler=gcc;-s;compiler.version=14;-s;compiler.libcxx=libstdc++11
+  -- Conan: checking conan executable
+  -- Conan: Found program /tmp/pip-build-env-k5ru8c9u/overlay/bin/conan
+  -- Conan: Version found /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/patch_ng.py:427: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+    re_hunk_start = re.compile(b"^@@ -(\d+)(,(\d+))? \+(\d+)(,(\d+))? @@")
+  /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/patch_ng.py:578: SyntaxWarning: "\s" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\s"? A raw string is also an option.
+    re_filename_date_time = b"^--- ([^\t]+)(?:\s([0-9-]+)\s([0-9:]+)|.*)"
+  /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/patch_ng.py:621: SyntaxWarning: "\+" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\+"? A raw string is also an option.
+    re_filename_date_time = b"^\+\+\+ ([^\t]+)(?:\s([0-9-]+)\s([0-9:]+)|.*)"
+  /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/patch_ng.py:653: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+    match = re.match(b"^@@ -(\d+)(,(\d+))? \+(\d+)(,(\d+))? @@(.*)", line)
+  /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/conans/model/ref.py:96: SyntaxWarning: "\+" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\+"? A raw string is also an option.
+    _validation_pattern = re.compile("^[a-zA-Z0-9_][a-zA-Z0-9_\+\.-]{%s,%s}$"
+  /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/conans/assets/templates/search_table_html.py:141: SyntaxWarning: "\s" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\s"? A raw string is also an option.
+    section: /^\s*\[\s*([^\]]*)\s*\]\s*$/,
+  Conan version 1.66.0
+
+  -- Conan executing: /tmp/pip-build-env-k5ru8c9u/overlay/bin/conan install . -s build_type=Release -s compiler=gcc -s compiler.version=14 -s compiler.libcxx=libstdc++11 -e=CONAN_CMAKE_PROGRAM=/tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/cmake/data/bin/cmake -g=cmake --build=missing
+
+  WARN: **************************************************
+  WARN: *** Conan 1 is legacy and on a deprecation path **
+  WARN: *********** Please upgrade to Conan 2 ************
+  WARN: **************************************************
+  Configuration:
+  [settings]
+  arch=armv8
+  arch_build=armv8
+  build_type=Release
+  compiler=gcc
+  compiler.libcxx=libstdc++11
+  compiler.version=14
+  os=Linux
+  os_build=Linux
+  [options]
+  [build_requires]
+  [env]
+  CONAN_CMAKE_PROGRAM=/tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/cmake/data/bin/cmake
+  conanfile.txt: Installing package
+  Requirements
+      fmt/8.0.1 from 'conancenter' - Cache
+      nlohmann_json/3.1.1 from 'conancenter' - Cache
+      spdlog/1.9.2 from 'conancenter' - Cache
+  Packages
+      fmt/8.0.1:b0034b6f4f4cfcc622743c7323263b4edf73d45d - Cache
+      nlohmann_json/3.1.1:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+      spdlog/1.9.2:e93751aee4b5407c36360ebbfc8780946f48965d - Cache
+
+  Installing (downloading, building) binaries...
+  fmt/8.0.1: Already installed!
+  nlohmann_json/3.1.1: Already installed!
+  spdlog/1.9.2: Already installed!
+  conanfile.txt: WARN:
+       ************************************************
+       The 'cmake' generator is deprecated.
+       Please update your code and remove it.
+       *************************************************
+
+  conanfile.txt: Generator cmake created conanbuildinfo.cmake
+  conanfile.txt: Generator txt created conanbuildinfo.txt
+  conanfile.txt: Aggregating env generators
+  conanfile.txt: Generated conaninfo.txt
+  conanfile.txt: Generated graphinfo
+  WARN: Revisions are disabled. Using Conan without revisions enabled is deprecated
+  WARN: **************************************************
+  WARN: *** Conan 1 is legacy and on a deprecation path **
+  WARN: *********** Please upgrade to Conan 2 ************
+  WARN: **************************************************
+
+  -- Conan: Loading conanbuildinfo.cmake
+  -- Conan: Adjusting output directories
+  -- Conan: Using cmake targets configuration
+  -- Library spdlog found /root/.conan/data/spdlog/1.9.2/_/_/package/e93751aee4b5407c36360ebbfc8780946f48965d/lib/libspdlog.a
+  -- Library fmt found /root/.conan/data/fmt/8.0.1/_/_/package/b0034b6f4f4cfcc622743c7323263b4edf73d45d/lib/libfmt.a
+  -- Conan: Adjusting language standard
+  -- Current conanbuildinfo.cmake directory: /tmp/pip-install-4c356iro/qiskit-aer_374f41001b16406189f29320c6c59cf9/_skbuild/linux-aarch64-3.14/cmake-build
+  -- Conan: Compiler GCC>=5, checking major version 14
+  -- Conan: Checking correct version: 14
+  -- Looking for OpenMP support...
+  -- OpenMP found!
+  -- OpenMP_CXX_FLAGS = -fopenmp
+  -- OpenMP_EXE_LINKER_FLAGS =
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+  -- Found Threads: TRUE
+  -- Looking for OpenBLAS library...
+  -- BLAS library found: /usr/lib/aarch64-linux-gnu/libopenblas.so
+  -- No Thrust supported backend
+  -- No Thrust support enabled
+  CMake Warning (policy) at cmake/FindPybind11.cmake:1 (find_package):
+    Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+    are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+    the cmake_policy command to set the policy and suppress this warning.
+  Call Stack (most recent call first):
+    qiskit_aer/backends/wrappers/CMakeLists.txt:2 (find_package)
+  This warning is for project developers.  Use -Wno-author or -Wno-policy to
+  suppress it.
+
+  -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.14.so (found version "3.14.4")
+  -- /usr/include/python3.14
+  -- PYTHON EXECUTABLE: /root/TaiDN-Q/.venv/bin/python
+  -- PYCOMM RAW: /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/pybind11/include
+  -- PYBIND INCLUDES: /tmp/pip-build-env-k5ru8c9u/overlay/lib/python3.14/site-packages/pybind11/include
+  -- Configuring done (32.9s)
+  -- Generating done (0.6s)
+  -- Build files have been written to: /tmp/pip-install-4c356iro/qiskit-aer_374f41001b16406189f29320c6c59cf9/_skbuild/linux-aarch64-3.14/cmake-build
